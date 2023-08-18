@@ -4,8 +4,8 @@
 <artifactPageExtension value="-definitions"/>
 <artifactPageExtension value="-examples"/>
 <artifactPageExtension value="-mappings"/>
-<artifact id="StructureDefinition/MyPatient" key="StructureDefinition-MyPatient" name="MyPatient"/>
-<artifact id="Patient/PatientExample" key="Patient-PatientExample" name="PatientExample"/>
+<artifact id="PlanDefinition/HepBAdultForecastingPD" key="PlanDefinition-HepBAdultForecastingPD" name="Immunization Forecasting of Hepatitis B Vaccine for Adults &gt;= 18 Years of Age"/>
+<artifact id="Library/HepBAdultForecasting" key="Library-HepBAdultForecasting" name="Logic for Immunization Forecasting of Hepatitis B Vaccine for Adults &gt;= 18 Years of Age"/>
 <page key="NA" name="(NA)"/>
 <page key="many" name="(many)"/>
 <page key="artifacts" name="Artifacts Summary"/>
