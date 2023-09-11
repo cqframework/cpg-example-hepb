@@ -1,3 +1,1 @@
-# ExampleIG
-
-Feel free to modify this index page with your own awesome content!
+# CPG - Hepatitis B Vaccination Example IG

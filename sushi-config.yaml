@@ -7,13 +7,13 @@
 id: hl7.fhir.uv.cpg.hepb
 canonical: http://hl7.org/fhir/uv/cpg/hepb
 # where should this url be used? "https://cds.ahrq.gov/cdsconnect/artifact/anthrax-post-exposure-prophylaxis"
-name: CPGHepatitisBVaccinationExamples
-title: CPG Hepatitis B Vaccination Examples
+name: CPGHepatitisBVaccinationExample
+title: CPG Hepatitis B Vaccination Example
 description: Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination
 status: active # draft | active | retired | unknown
-version: 1.1.0 # resources use this version
+version: 1.0.0 # resources use this version
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
-copyrightYear: 2023
+copyrightYear: 2023+
 releaseLabel: ci-build # ci-build | draft | qa-preview | ballot | trial-use | release | update | normative+trial-use
 license: CC0-1.0 # https://www.hl7.org/fhir/valueset-spdx-license.html
 jurisdiction: http://unstats.un.org/unsd/methods/m49/m49.htm#001 "World"
