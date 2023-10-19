@@ -8,7 +8,7 @@ id: hl7.fhir.uv.cpg.hepb
 canonical: http://hl7.org/fhir/uv/cpg/hepb
 # where should this url be used? "https://cds.ahrq.gov/cdsconnect/artifact/anthrax-post-exposure-prophylaxis"
 name: CPGHepatitisBVaccinationExample
-title: CPG Hepatitis B Vaccination Example
+title: Clinical Practice Guidelines Example Implmentation Guide - Hepatitis B Vaccination
 description: Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination
 status: active # draft | active | retired | unknown
 version: 1.0.0 # resources use this version
