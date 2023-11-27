@@ -1,6 +1,6 @@
 Instance: HepBAdultForecasting
 InstanceOf: Library
-Usage: #example
+Usage: #definition
 Title: "Logic for Immunization Forecasting of Hepatitis B Vaccine for Adults >= 18 Years of Age"
 * insert LibraryMetadata(Library, HepBAdultForecasting)
 * insert FHIRRelatedLibraries

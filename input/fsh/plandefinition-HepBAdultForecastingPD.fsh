@@ -1,6 +1,6 @@
 Instance: HepBAdultForecastingPD
 InstanceOf: PlanDefinition
-Usage: #example
+Usage: #definition
 Title: "Immunization Forecasting of Hepatitis B Vaccine for Adults >= 18 Years of Age"
 * insert DefinitionMetadata(PlanDefinition, HepBAdultForecastingPD)
 * insert HepBRelatedArtifacts
