@@ -1,0 +1,23 @@
+[
+  {
+    "id" : "hl7.fhir.uv.cpg.hepb",
+    "type" : "ImplementationGuide",
+    "url" : "http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb",
+    "version" : "1.0.0",
+    "name" : "CPGHepatitisBVaccinationExample"
+  },
+  {
+    "id" : "HepBAdultForecasting",
+    "type" : "Library",
+    "url" : "http://hl7.org/fhir/uv/cpg/hepb/Library/HepBAdultForecasting",
+    "version" : "1.0.0",
+    "name" : "HepBAdultForecasting"
+  },
+  {
+    "id" : "HepBAdultForecastingPD",
+    "type" : "PlanDefinition",
+    "url" : "http://hl7.org/fhir/uv/cpg/hepb/PlanDefinition/HepBAdultForecastingPD",
+    "version" : "1.0.0",
+    "name" : "HepBAdultForecastingPD"
+  }
+]

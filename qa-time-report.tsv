@@ -1,0 +1,4 @@
+Source File	Size	loadResources	load-configure	scan	loadDepInfo	loadInfo	load	generateSnapshots	checkR4R4B	generateNarratives	validate	loadLists	checkConformanceResources	checkConformanceResources2	checkConformanceResources3	generateLogicalMaps	validateExpressions	scanForUsageStats	checkURLsUnique	processProvenanceDetails	generate1	generate2	generateLogicals	makeDependencies	generateExampleZip	generateValidationPack	scanProfilesForR5	scanExamplesForR5
+/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.cpg.hepb.json	3240	-	0	0	0	0	0	0	4	272	0	0	0	0	0	0	0	1	0	0	84	53	0	0	1	1	0	1
+fsh-generated/resources/Library-HepBAdultForecasting.json	6315	25	1	0	0	0	0	0	1	184	0	0	0	0	0	0	0	0	0	0	364	32	0	0	0	10	0	0
+fsh-generated/resources/PlanDefinition-HepBAdultForecastingPD.json	4384	20	0	0	0	0	0	0	1	45	0	0	0	0	0	0	0	0	0	0	58	16	0	0	0	1	0	0
