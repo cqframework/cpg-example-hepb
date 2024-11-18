@@ -4,8 +4,8 @@
 # │  see: https://fshschool.org/docs/sushi/configuration/.                                         │
 # ╰────────────────────────────────────────────────────────────────────────────────────────────────╯
 
-id: hl7.fhir.uv.cpg.hepb
-canonical: http://hl7.org/fhir/uv/cpg/hepb
+id: cqframework.cpg-example-hepb
+canonical: http://cqframework.org/cpg-example-hepb
 # where should this url be used? "https://cds.ahrq.gov/cdsconnect/artifact/anthrax-post-exposure-prophylaxis"
 name: CPGHepatitisBVaccinationExample
 title: Clinical Practice Guidelines Example Implmentation Guide - Hepatitis B Vaccination

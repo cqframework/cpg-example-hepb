@@ -4,7 +4,7 @@ RuleSet: LibraryMetadata(type, id)
   * value = "{id}"
 * status = #active
 * experimental = true
-* url = "http://hl7.org/fhir/uv/cpg/hepb/{type}/{id}"
+* url = "http://cqframework.org/cpg-example-hepb/{type}/{id}"
 * topic.text = "Immunization Forecasting"
 * author[0].name = "Daryl Chertcoff"
 * author[+].name = "Bryn Rhodes"
@@ -18,7 +18,7 @@ RuleSet: DefinitionMetadata(type, id)
   * value = "{id}"
 * status = #draft
 * experimental = true
-* url = "http://hl7.org/fhir/uv/cpg/hepb/{type}/{id}"
+* url = "http://cqframework.org/cpg-example-hepb/{type}/{id}"
 * topic.text = "Immunization Forecasting"
 * author[0].name = "Daryl Chertcoff"
 * author[+].name = "Bryn Rhodes"
