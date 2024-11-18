@@ -5,19 +5,19 @@
 
 # - resource -------------------------------------------------------------------
 
-<http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb> a fhir:ImplementationGuide ;
+<http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb> a fhir:ImplementationGuide ;
   fhir:nodeRole fhir:treeRoot ;
-  fhir:id [ fhir:v "hl7.fhir.uv.cpg.hepb"] ; # 
+  fhir:id [ fhir:v "cqframework.cpg-example-hepb"] ; # 
   fhir:text [
      fhir:status [ fhir:v "generated" ] ;
-     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.cpg.hepb</b></p><a name=\"hl7.fhir.uv.cpg.hepb\"> </a><a name=\"hchl7.fhir.uv.cpg.hepb\"> </a><a name=\"hl7.fhir.uv.cpg.hepb-en-US\"> </a><h2>CPGHepatitisBVaccinationExample</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb</pre><div><p>Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination</p>\n</div></div>"
+     fhir:div "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide cqframework.cpg-example-hepb</b></p><a name=\"cqframework.cpg-example-hepb\"> </a><a name=\"hccqframework.cpg-example-hepb\"> </a><a name=\"cqframework.cpg-example-hepb-en-US\"> </a><h2>CPGHepatitisBVaccinationExample</h2><p>The official URL for this implementation guide is: </p><pre>http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb</pre><div><p>Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination</p>\n</div></div>"
   ] ; # 
-  fhir:url [ fhir:v "http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb"^^xsd:anyURI] ; # 
+  fhir:url [ fhir:v "http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb"^^xsd:anyURI] ; # 
   fhir:version [ fhir:v "1.0.0"] ; # 
   fhir:name [ fhir:v "CPGHepatitisBVaccinationExample"] ; # 
   fhir:title [ fhir:v "Clinical Practice Guidelines Example Implmentation Guide - Hepatitis B Vaccination"] ; # 
   fhir:status [ fhir:v "active"] ; # 
-  fhir:date [ fhir:v "2024-11-18T18:26:50+00:00"^^xsd:dateTime] ; # 
+  fhir:date [ fhir:v "2024-11-18T18:29:28+00:00"^^xsd:dateTime] ; # 
   fhir:publisher [ fhir:v "HL7 International - Clinical Decision Support WG"] ; # 
   fhir:contact ( [
      fhir:name [ fhir:v "HL7 International - Clinical Decision Support WG" ] ;
@@ -34,7 +34,7 @@
        fhir:display [ fhir:v "World" ]
      ] )
   ] ) ; # 
-  fhir:packageId [ fhir:v "hl7.fhir.uv.cpg.hepb"] ; # 
+  fhir:packageId [ fhir:v "cqframework.cpg-example-hepb"] ; # 
   fhir:license [ fhir:v "CC0-1.0"] ; # 
   fhir:fhirVersion ( [ fhir:v "4.0.1"] ) ; # 
   fhir:dependsOn ( [
@@ -155,15 +155,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/uv/cpg/hepb/history.html" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "autoload-resources" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -222,6 +213,15 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://cqframework.org/cpg-example-hepb/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -392,15 +392,6 @@
      ] [
        fhir:extension ( [
          fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "path-history" ]
-       ] [
-         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
-         fhir:value [ fhir:v "http://hl7.org/fhir/uv/cpg/hepb/history.html" ]
-       ] ) ;
-       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
-     ] [
-       fhir:extension ( [
-         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "autoload-resources" ]
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
@@ -459,6 +450,15 @@
        ] [
          fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
          fhir:value [ fhir:v "input/ignoreWarnings.txt" ]
+       ] ) ;
+       fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
+     ] [
+       fhir:extension ( [
+         fhir:url [ fhir:v "code"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "path-history" ]
+       ] [
+         fhir:url [ fhir:v "value"^^xsd:anyURI ] ;
+         fhir:value [ fhir:v "http://cqframework.org/cpg-example-hepb/history.html" ]
        ] ) ;
        fhir:url [ fhir:v "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"^^xsd:anyURI ]
      ] [
@@ -549,7 +549,7 @@
          fhir:value [ fhir:v "PlanDefinition" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/hepb/PlanDefinition/HepBAdultForecastingPD> ;
+         fhir:link <http://cqframework.org/cpg-example-hepb/PlanDefinition/HepBAdultForecastingPD> ;
          fhir:reference [ fhir:v "PlanDefinition/HepBAdultForecastingPD" ]
        ] ;
        fhir:name [ fhir:v "Immunization Forecasting of Hepatitis B Vaccine for Adults >= 18 Years of Age" ] ;
@@ -561,7 +561,7 @@
          fhir:value [ fhir:v "Library" ]
        ] ) ;
        fhir:reference [
-         fhir:link <http://hl7.org/fhir/uv/cpg/hepb/Library/HepBAdultForecasting> ;
+         fhir:link <http://cqframework.org/cpg-example-hepb/Library/HepBAdultForecasting> ;
          fhir:reference [ fhir:v "Library/HepBAdultForecasting" ]
        ] ;
        fhir:name [ fhir:v "Logic for Immunization Forecasting of Hepatitis B Vaccine for Adults >= 18 Years of Age" ] ;
@@ -633,10 +633,6 @@
        fhir:value [ fhir:v "input-cache/txcache" ]
      ] )
   ] . # 
-
-<http://hl7.org/fhir/uv/cpg/hepb/PlanDefinition/HepBAdultForecastingPD> a fhir:uv .
-
-<http://hl7.org/fhir/uv/cpg/hepb/Library/HepBAdultForecasting> a fhir:uv .
 
 # -------------------------------------------------------------------------------------
 

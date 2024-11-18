@@ -1,5 +1,5 @@
 {
-  "package": "hl7.fhir.uv.cpg.hepb",
+  "package": "cqframework.cpg-example-hepb",
   "version": "1.0.0",
   "fhirVersion": "4.0.1",
   "jurisdiction": "001",

@@ -1,22 +1,22 @@
 [
   {
-    "id" : "hl7.fhir.uv.cpg.hepb",
+    "id" : "cqframework.cpg-example-hepb",
     "type" : "ImplementationGuide",
-    "url" : "http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb",
+    "url" : "http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb",
     "version" : "1.0.0",
     "name" : "CPGHepatitisBVaccinationExample"
   },
   {
     "id" : "HepBAdultForecasting",
     "type" : "Library",
-    "url" : "http://hl7.org/fhir/uv/cpg/hepb/Library/HepBAdultForecasting",
+    "url" : "http://cqframework.org/cpg-example-hepb/Library/HepBAdultForecasting",
     "version" : "1.0.0",
     "name" : "HepBAdultForecasting"
   },
   {
     "id" : "HepBAdultForecastingPD",
     "type" : "PlanDefinition",
-    "url" : "http://hl7.org/fhir/uv/cpg/hepb/PlanDefinition/HepBAdultForecastingPD",
+    "url" : "http://cqframework.org/cpg-example-hepb/PlanDefinition/HepBAdultForecastingPD",
     "version" : "1.0.0",
     "name" : "HepBAdultForecastingPD"
   }

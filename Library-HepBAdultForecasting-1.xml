@@ -3,7 +3,7 @@
    <annotation translatorOptions="EnableAnnotations,EnableLocators,DisableListDemotion,DisableListPromotion" signatureLevel="None" xsi:type="a:CqlToElmInfo"/>
    <annotation message="The function FHIRHelpers.ToInterval has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime." errorType="semantic" errorSeverity="warning" xsi:type="a:CqlToElmError"/>
    <annotation message="The function FHIRHelpers.ToInterval has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime." errorType="semantic" errorSeverity="warning" xsi:type="a:CqlToElmError"/>
-   <annotation librarySystem="http://hl7.org/fhir/uv/cpg/hepb" libraryId="HepBAdultForecasting" libraryVersion="0.1.0" startLine="93" startChar="3" endLine="93" endChar="60" message="Could not resolve membership operator for terminology target of the retrieve." errorType="semantic" errorSeverity="warning" xsi:type="a:CqlToElmError"/>
+   <annotation librarySystem="http://cqframework.org/cpg-example-hepb" libraryId="HepBAdultForecasting" libraryVersion="0.1.0" startLine="93" startChar="3" endLine="93" endChar="60" message="Could not resolve membership operator for terminology target of the retrieve." errorType="semantic" errorSeverity="warning" xsi:type="a:CqlToElmError"/>
    <annotation xsi:type="a:Annotation">
       <a:s r="44">
          <a:s>/*
@@ -14,7 +14,7 @@
 library HepBAdultForecasting version '0.1.0'</a:s>
       </a:s>
    </annotation>
-   <identifier id="HepBAdultForecasting" system="http://hl7.org/fhir/uv/cpg/hepb" version="0.1.0"/>
+   <identifier id="HepBAdultForecasting" system="http://cqframework.org/cpg-example-hepb" version="0.1.0"/>
    <schemaIdentifier id="urn:hl7-org:elm" version="r1"/>
    <usings>
       <def localIdentifier="System" uri="urn:hl7-org:elm-types:r1"/>

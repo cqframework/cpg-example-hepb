@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <ImplementationGuide xmlns="http://hl7.org/fhir">
-  <id value="hl7.fhir.uv.cpg.hepb"/>
+  <id value="cqframework.cpg-example-hepb"/>
   <text>
-    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.cpg.hepb</b></p><a name="hl7.fhir.uv.cpg.hepb"> </a><a name="hchl7.fhir.uv.cpg.hepb"> </a><a name="hl7.fhir.uv.cpg.hepb-en-US"> </a><h2>CPGHepatitisBVaccinationExample</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb</pre><div><p>Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination</p>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><p class="res-header-id"><b>Generated Narrative: ImplementationGuide cqframework.cpg-example-hepb</b></p><a name="cqframework.cpg-example-hepb"> </a><a name="hccqframework.cpg-example-hepb"> </a><a name="cqframework.cpg-example-hepb-en-US"> </a><h2>CPGHepatitisBVaccinationExample</h2><p>The official URL for this implementation guide is: </p><pre>http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb</pre><div><p>Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination</p>
 </div></div>
   </text>
-  <url value="http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb"/>
+  <url value="http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb"/>
   <version value="1.0.0"/>
   <name value="CPGHepatitisBVaccinationExample"/>
   <title value="Clinical Practice Guidelines Example Implmentation Guide - Hepatitis B Vaccination"/>
   <status value="active"/>
-  <date value="2024-11-18T18:26:50+00:00"/>
+  <date value="2024-11-18T18:29:28+00:00"/>
   <publisher value="HL7 International - Clinical Decision Support WG"/>
   <contact>
     <name value="HL7 International - Clinical Decision Support WG"/>
@@ -28,7 +28,7 @@
       <display value="World"/>
     </coding>
   </jurisdiction>
-  <packageId value="hl7.fhir.uv.cpg.hepb"/>
+  <packageId value="cqframework.cpg-example-hepb"/>
   <license value="CC0-1.0"/>
   <fhirVersion value="4.0.1"/>
   <dependsOn id="hl7tx">
@@ -127,14 +127,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueString value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/uv/cpg/hepb/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueString value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -187,6 +179,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueString value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://cqframework.org/cpg-example-hepb/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -338,14 +338,6 @@
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
       <extension url="code">
-        <valueCode value="path-history"/>
-      </extension>
-      <extension url="value">
-        <valueString value="http://hl7.org/fhir/uv/cpg/hepb/history.html"/>
-      </extension>
-    </extension>
-    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
-      <extension url="code">
         <valueCode value="autoload-resources"/>
       </extension>
       <extension url="value">
@@ -398,6 +390,14 @@
       </extension>
       <extension url="value">
         <valueString value="input/ignoreWarnings.txt"/>
+      </extension>
+    </extension>
+    <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
+      <extension url="code">
+        <valueCode value="path-history"/>
+      </extension>
+      <extension url="value">
+        <valueString value="http://cqframework.org/cpg-example-hepb/history.html"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">

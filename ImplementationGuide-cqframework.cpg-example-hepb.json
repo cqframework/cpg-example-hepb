@@ -1,16 +1,16 @@
 {
   "resourceType" : "ImplementationGuide",
-  "id" : "hl7.fhir.uv.cpg.hepb",
+  "id" : "cqframework.cpg-example-hepb",
   "text" : {
     "status" : "generated",
-    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide hl7.fhir.uv.cpg.hepb</b></p><a name=\"hl7.fhir.uv.cpg.hepb\"> </a><a name=\"hchl7.fhir.uv.cpg.hepb\"> </a><a name=\"hl7.fhir.uv.cpg.hepb-en-US\"> </a><h2>CPGHepatitisBVaccinationExample</h2><p>The official URL for this implementation guide is: </p><pre>http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb</pre><div><p>Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination</p>\n</div></div>"
+    "div" : "<div xmlns=\"http://www.w3.org/1999/xhtml\"><p class=\"res-header-id\"><b>Generated Narrative: ImplementationGuide cqframework.cpg-example-hepb</b></p><a name=\"cqframework.cpg-example-hepb\"> </a><a name=\"hccqframework.cpg-example-hepb\"> </a><a name=\"cqframework.cpg-example-hepb-en-US\"> </a><h2>CPGHepatitisBVaccinationExample</h2><p>The official URL for this implementation guide is: </p><pre>http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb</pre><div><p>Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination</p>\n</div></div>"
   },
-  "url" : "http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb",
+  "url" : "http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb",
   "version" : "1.0.0",
   "name" : "CPGHepatitisBVaccinationExample",
   "title" : "Clinical Practice Guidelines Example Implmentation Guide - Hepatitis B Vaccination",
   "status" : "active",
-  "date" : "2024-11-18T18:26:50+00:00",
+  "date" : "2024-11-18T18:29:28+00:00",
   "publisher" : "HL7 International - Clinical Decision Support WG",
   "contact" : [{
     "name" : "HL7 International - Clinical Decision Support WG",
@@ -27,7 +27,7 @@
       "display" : "World"
     }]
   }],
-  "packageId" : "hl7.fhir.uv.cpg.hepb",
+  "packageId" : "cqframework.cpg-example-hepb",
   "license" : "CC0-1.0",
   "fhirVersion" : ["4.0.1"],
   "dependsOn" : [{
@@ -159,17 +159,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueString" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://hl7.org/fhir/uv/cpg/hepb/history.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueString" : "autoload-resources"
       },
       {
@@ -241,6 +230,17 @@
       {
         "url" : "value",
         "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueString" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://cqframework.org/cpg-example-hepb/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -449,17 +449,6 @@
     {
       "extension" : [{
         "url" : "code",
-        "valueCode" : "path-history"
-      },
-      {
-        "url" : "value",
-        "valueString" : "http://hl7.org/fhir/uv/cpg/hepb/history.html"
-      }],
-      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
-    },
-    {
-      "extension" : [{
-        "url" : "code",
         "valueCode" : "autoload-resources"
       },
       {
@@ -531,6 +520,17 @@
       {
         "url" : "value",
         "valueString" : "input/ignoreWarnings.txt"
+      }],
+      "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
+    },
+    {
+      "extension" : [{
+        "url" : "code",
+        "valueCode" : "path-history"
+      },
+      {
+        "url" : "value",
+        "valueString" : "http://cqframework.org/cpg-example-hepb/history.html"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },

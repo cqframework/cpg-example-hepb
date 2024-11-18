@@ -1,40 +1,37 @@
 CPGHepatitisBVaccinationExample : Validation Results
 =========================================
 
-err = 3, warn = 7, info = 0
+err = 0, warn = 7, info = 0
 $--
-Generated $--. FHIR version $-- for hl7.fhir.uv.cpg.hepb#$-- (canonical = http://hl7.org/fhir/uv/cpg/hepb)
+Generated $--. FHIR version $-- for cqframework.cpg-example-hepb#$-- (canonical = http://cqframework.org/cpg-example-hepb)
  Build Errors : 15 / 4 / 0
- /github/workspace/fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.cpg.hepb : 1 / 0 / 1
- /github/workspace/fsh-generated/resources/Library-HepBAdultForecasting : 1 / 4 / 1
- /github/workspace/fsh-generated/resources/PlanDefinition-HepBAdultForecastingPD : 1 / 0 / 1
+ /github/workspace/fsh-generated/resources/ImplementationGuide-cqframework.cpg-example-hepb : 0 / 0 / 1
+ /github/workspace/fsh-generated/resources/Library-HepBAdultForecasting : 0 / 4 / 1
+ /github/workspace/fsh-generated/resources/PlanDefinition-HepBAdultForecastingPD : 0 / 0 / 1
 </table>
 == n/a ==
-ERROR: /github/workspace/output/Library-HepBAdultForecasting-testing.html#/html/body/div/div/div/p/span/a at Line 231, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Library-HepBAdultForecasting.change.history.html#/html/body/div/div/div/p/span/a at Line 200, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Library-HepBAdultForecasting.html#/html/body/div/div/div/p/span/a at Line 417, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Library-HepBAdultForecasting.json.html#/html/body/div/div/div/p/span/a at Line 512, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Library-HepBAdultForecasting.ttl.html#/html/body/div/div/div/p/span/a at Line 463, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/Library-HepBAdultForecasting.xml.html#/html/body/div/div/div/p/span/a at Line 636, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD-testing.html#/html/body/div/div/div/p/span/a at Line 231, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.change.history.html#/html/body/div/div/div/p/span/a at Line 200, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.html#/html/body/div/div/div/p/span/a at Line 274, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.json.html#/html/body/div/div/div/p/span/a at Line 402, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.ttl.html#/html/body/div/div/div/p/span/a at Line 353, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.xml.html#/html/body/div/div/div/p/span/a at Line 389, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 209, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/span/a at Line 254, column 121: The link 'license.html' for "License" cannot be resolved
-ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/span/a at Line 156, column 121: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Library-HepBAdultForecasting-testing.html#/html/body/div/div/div/p/span/a at Line 231, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Library-HepBAdultForecasting.change.history.html#/html/body/div/div/div/p/span/a at Line 200, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Library-HepBAdultForecasting.html#/html/body/div/div/div/p/span/a at Line 417, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Library-HepBAdultForecasting.json.html#/html/body/div/div/div/p/span/a at Line 512, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Library-HepBAdultForecasting.ttl.html#/html/body/div/div/div/p/span/a at Line 463, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/Library-HepBAdultForecasting.xml.html#/html/body/div/div/div/p/span/a at Line 637, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD-testing.html#/html/body/div/div/div/p/span/a at Line 231, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.change.history.html#/html/body/div/div/div/p/span/a at Line 200, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.html#/html/body/div/div/div/p/span/a at Line 274, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.json.html#/html/body/div/div/div/p/span/a at Line 402, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.ttl.html#/html/body/div/div/div/p/span/a at Line 353, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/PlanDefinition-HepBAdultForecastingPD.xml.html#/html/body/div/div/div/p/span/a at Line 389, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/artifacts.html#/html/body/div/div/div/p/span/a at Line 209, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/index.html#/html/body/div/div/div/p/span/a at Line 254, column 129: The link 'license.html' for "License" cannot be resolved
+ERROR: /github/workspace/output/toc.html#/html/body/div/div/div/p/span/a at Line 156, column 129: The link 'license.html' for "License" cannot be resolved
 WARNING: 1: The HTML fragment 'ip-statements.xhtml' is not included anywhere in the produced implementation guide
 WARNING: 2: An HTML fragment from the set [cross-version-analysis.xhtml, cross-version-analysis-inline.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 3: An HTML fragment from the set [dependency-table.xhtml, dependency-table-short.xhtml] is not included anywhere in the produced implementation guide
 WARNING: 4: The HTML fragment 'globals-table.xhtml' is not included anywhere in the produced implementation guide
-== fsh-generated/resources/ImplementationGuide-hl7.fhir.uv.cpg.hepb.json ==
-ERROR: ImplementationGuide/hl7.fhir.uv.cpg.hepb: ImplementationGuide: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
+== fsh-generated/resources/ImplementationGuide-cqframework.cpg-example-hepb.json ==
 == fsh-generated/resources/Library-HepBAdultForecasting.json ==
 WARNING: /github/workspace/./input/cql/HepBAdultForecasting.cql: The function FHIRHelpers.ToInterval has multiple overloads and due to the SignatureLevel setting (None), the overload signature is not being included in the output. This may result in ambiguous function resolution at runtime, consider setting the SignatureLevel to Overloads or All to ensure that the output includes sufficient information to support correct overload selection at runtime.
 WARNING: HepBAdultForecasting: Could not resolve membership operator for terminology target of the retrieve.
 WARNING: HepBAdultForecasting.cql: Result type choice<System.DateTime,System.String> of definition Most Recent Hep B Adjuvanted Administration Date is not supported; implementations may not be able to use the result of this expression
-ERROR: Library/HepBAdultForecasting: Library: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension
 == fsh-generated/resources/PlanDefinition-HepBAdultForecastingPD.json ==
-ERROR: PlanDefinition/HepBAdultForecastingPD: PlanDefinition: When HL7 is publishing a resource, the owning committee must be stated using the http://hl7.org/fhir/StructureDefinition/structuredefinition-wg extension

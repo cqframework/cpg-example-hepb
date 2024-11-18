@@ -1,19 +1,19 @@
 {
-  "url" : "http://hl7.org/fhir/uv/cpg/hepb/ImplementationGuide/hl7.fhir.uv.cpg.hepb",
+  "url" : "http://cqframework.org/cpg-example-hepb/ImplementationGuide/cqframework.cpg-example-hepb",
   "name" : "CPGHepatitisBVaccinationExample",
   "title" : "Clinical Practice Guidelines Example Implmentation Guide - Hepatitis B Vaccination",
   "description" : "Examples of CPG computable content representing CDC recommendations on Hepatits B vaccination",
   "status" : "active",
-  "package-id" : "hl7.fhir.uv.cpg.hepb",
+  "package-id" : "cqframework.cpg-example-hepb",
   "ig-ver" : "1.0.0",
-  "date" : "Mon, 18 Nov, 2024 18:26:50 +0000",
-  "dateISO8601" : "2024-11-18T18:26:50+00:00",
-  "errs" : 3,
+  "date" : "Mon, 18 Nov, 2024 18:29:28 +0000",
+  "dateISO8601" : "2024-11-18T18:29:28+00:00",
+  "errs" : 0,
   "warnings" : 7,
   "hints" : 0,
   "suppressed-hints" : 0,
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 923795456
+  "maxMemory" : 1101105576
 }

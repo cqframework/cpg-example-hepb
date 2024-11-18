@@ -1,7 +1,7 @@
 {
   "version" : "1.0.0",
   "fhirVersion" : ["4.0.1"],
-  "date" : "20241118182609",
-  "name" : "hl7.fhir.uv.cpg.hepb",
+  "date" : "20241118182845",
+  "name" : "cqframework.cpg-example-hepb",
   "jurisdiction" : "http://unstats.un.org/unsd/methods/m49/m49.htm#001"
 }
